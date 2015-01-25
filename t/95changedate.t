@@ -12,8 +12,8 @@ my $fh = IO::File->new('Changes','r')   or plan skip_all => "Cannot open Changes
 
 plan 'no_plan';
 
-use Labyrinth::Plugin::Review;
-my $version = $Labyrinth::Plugin::Review::VERSION;
+use Labyrinth::Plugin::Review::Book;
+my $version = $Labyrinth::Plugin::Review::Book::VERSION;
 
 my $latest = 0;
 while(<$fh>) {

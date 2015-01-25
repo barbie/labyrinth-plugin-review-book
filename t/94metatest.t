@@ -14,8 +14,8 @@ plan 'no_plan';
 
 my $meta = meta_spec_ok(undef,undef,@_);
 
-use Labyrinth::Plugin::Review;
-my $version = $Labyrinth::Plugin::Review::VERSION;
+use Labyrinth::Plugin::Review::Book;
+my $version = $Labyrinth::Plugin::Review::Book::VERSION;
 
 is($meta->{version},$version,
     'META.yml distribution version matches');
