@@ -12,3 +12,13 @@ t/91podcover.t
 t/94metatest.t
 t/95changedate.t
 t/96metatest.t
+vhost/cgi-bin/config/parserules.ini
+vhost/cgi-bin/config/phrasebook.ini
+vhost/cgi-bin/config/requests/book.ini
+vhost/cgi-bin/templates/reviews/book-adminedit.html
+vhost/cgi-bin/templates/reviews/book-adminlist.html
+vhost/cgi-bin/templates/reviews/book-adminview.html
+vhost/cgi-bin/templates/reviews/book-error.html
+vhost/cgi-bin/templates/reviews/book-failure.html
+vhost/cgi-bin/templates/reviews/book-item.html
+vhost/cgi-bin/templates/reviews/book-list.html
