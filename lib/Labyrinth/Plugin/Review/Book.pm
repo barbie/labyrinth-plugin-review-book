@@ -132,6 +132,13 @@ sub List {
 
 Check default access to the Admin methods
 
+=item * ImageCheck
+
+Returns true or false as to whether the given image is referenced wihin a 
+review. 
+
+Currently this method always returns false.
+
 =item * Admin
 
 List reviews for administration purposes.
