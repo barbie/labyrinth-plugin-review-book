@@ -15,6 +15,7 @@ WriteMakefile(
     PREREQ_PM           => {
 
         # prereqs
+        'Clone'                                 => '0',
         'Labyrinth'                             => '5.29',
         'Labyrinth::Plugin::Review'             => '0',
         'WWW::Scraper::ISBN'                    => '1.03',
