@@ -1,6 +1,6 @@
 {
     "name": "Labyrinth-Plugin-Review-Book",
-    "version": "0.01",
+    "version": "0.02",
     "abstract": "Book Reviews plugin for the Labyrinth framework",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -47,7 +47,7 @@
     "provides": {
         "Labyrinth::Plugin::Review::Book": {
             "file": "lib/Labyrinth/Plugin/Review/Book.pm",
-            "version": "0.01"
+            "version": "0.02"
         }
     },
     "no_index": {
